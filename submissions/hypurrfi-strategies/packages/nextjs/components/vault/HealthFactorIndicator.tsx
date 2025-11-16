@@ -75,9 +75,11 @@ export const HealthFactorIndicator: React.FC<HealthFactorIndicatorProps> = ({ he
       {/* Risk level indicator */}
       <div className="flex items-center justify-between">
         <span className="text-xs text-base-content/50">Risk Level</span>
-        <span className={`badge badge-sm ${color === "text-success" ? "badge-success" : ""} ${
-          color === "text-warning" ? "badge-warning" : ""
-        } ${color === "text-error" ? "badge-error" : ""}`}>
+        <span
+          className={`badge badge-sm ${color === "text-success" ? "badge-success" : ""} ${
+            color === "text-warning" ? "badge-warning" : ""
+          } ${color === "text-error" ? "badge-error" : ""}`}
+        >
           {riskLevel}
         </span>
       </div>
