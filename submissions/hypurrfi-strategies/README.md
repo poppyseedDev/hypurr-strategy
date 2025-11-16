@@ -1,7 +1,7 @@
 # HypurrFi Strategies
 
 🎥 **Video Submission:** [Watch our project demo on Loom](https://www.loom.com/share/79240f8f073d4e6da332279d638884ed) 🚀
-*No live deployment link provided — encountered a last-minute bug and ran out of time. Happy to demo code or answer questions! 🚧*
+*No live deployment link provided — encountered a last-minute bug and ran out of time. Happy to demo code or answer questions! Contract deployment details are in the Deployment section🚧*
 
 **One-Click Leveraged Stablecoin Yield Loops on HyperEVM**
 
@@ -245,6 +245,29 @@ Health Factor: ~1.3
 - Batch operations where possible
 - Infinite approvals reduce subsequent gas costs
 - Optimized loop iteration count
+
+## 📍 Deployment
+
+### Deployed Contracts (HyperEVM Testnet - Chain ID: 998)
+
+**Main Contracts:**
+- **HypurrFiVault**: `0x646D2c4ab367B2D7964EDe831958B192a91B0B27`
+  - Deployed on block: `37832312`
+  - [View on PurrSec Explorer](https://testnet.purrsec.com/address/0x646D2c4ab367B2D7964EDe831958B192a91B0B27)
+
+**Supporting Contracts:**
+- **MockERC20**: `0x6FB6C188a91FAd5320AcBe0f468Fc41F7f2d3586`
+  - Deployed on block: `37832284`
+- **MockHypurrFiPool**: `0x784707E7faBca09087086771622790Db5B2B7023`
+  - Deployed on block: `37832295`
+- **SE2Token**: `0xdA396393d754451474Aaa7b3EaCd35c163F15592`
+  - Deployed on block: `37832307`
+
+**Network Details:**
+- Network: HyperEVM Testnet
+- Chain ID: 998
+- RPC URL: `https://rpc.hyperliquid-testnet.xyz/evm`
+- Block Explorer: [PurrSec Testnet](https://testnet.purrsec.com)
 
 ## 🎥 Demo Video
 
